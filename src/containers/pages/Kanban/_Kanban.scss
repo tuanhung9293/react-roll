@@ -1,0 +1,37 @@
+.kanban-list {
+    display: flex;
+    margin-top: 20px;
+    .list-content {
+        padding: 8px;
+        width: 250;
+        flex: 1;
+        background-color: $white-text-color;
+        .list-title {
+            color: black;
+            font-size: $normal-title;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .item-style {
+            user-select: none;
+            padding: 16px;
+            margin: 0 0 8px 0;
+            color: black;
+            border: 1px solid $blue-border-color;
+            background-color: $white-text-color;
+            .customer-name {
+                font-weight: bold;
+            }
+        }
+        .dragging-item {
+            background-color: $blue-background-color;
+            color: $white-text-color;
+        }
+        .isLate-item {
+            background-color: $late-color;
+        }
+    }
+    .dragging-list-content {
+        background: $lightgrey-color;
+    }
+}

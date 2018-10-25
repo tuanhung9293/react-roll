@@ -1,0 +1,7 @@
+.right-part {
+    float: right;
+    margin-top: 10px;
+}
+.right-part.submit-button {
+    margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.right-part {
+    text-align: right;
+}
+.per-page{
+    margin-left: 10px;
+    max-width: 70px;
+}
+.input-group-addon button {
+    border: 0px;
+}

@@ -1,0 +1,22 @@
+// ----------------------------------------------------------------------
+// Library
+// ----------------------------------------------------------------------
+@import '../assets/css/bootstrap.min.css';
+@import '../assets/css/oneui.css';
+@import '../assets/css/jquery.dataTables.min.css';
+@import '../assets/css/variables.scss';
+
+// ----------------------------------------------------------------------
+// Pages Container
+// ----------------------------------------------------------------------
+@import "pages/UserLogin/user-login.scss";
+@import "pages/OrderList/order-list.scss";
+@import "pages/OrderForm/order-form.scss";
+@import "pages/Kanban/Kanban.scss";
+
+// ----------------------------------------------------------------------
+// Pages Components
+// ----------------------------------------------------------------------
+@import "../components/element/create-order-modal.scss";
+
+
